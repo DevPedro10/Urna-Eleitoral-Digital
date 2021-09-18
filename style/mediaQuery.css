@@ -1,0 +1,17 @@
+@media screen and (max-width:812px ) {
+    .urna {
+    position: absolute;
+    top: 25%;
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: grid;
+    }
+    .teclado {
+        margin: 0;
+    }
+    .teclado-botao {
+        width: 70px;
+        height: 50px;
+    }
+
+}

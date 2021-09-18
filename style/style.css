@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+
+
+
+
+@keyframes pisca {
+    0% {opacoty: 0.2;} 
+    50% {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+#title {
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.308);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.158);
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.urna {
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.24);
+    position: absolute;
+    top: 25%;
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: flex;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 320px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #E8E8E8, #c1c1c1);
+    box-shadow: inset 0 0 3px 2px #555;
+}
+
+.teclado {
+    margin-left: 30px;
+    background-color: #252222;
+}
+
+.teclado-botao {
+    border-radius: 4px;
+    width: 55px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #444;
+    border-right: 2px solid #555;
+}
+
+.teclado-linha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.branco {
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+}
+
+.corrige {
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #F09046;
+    color: black;
+    font-size: 11px;
+}
+
+.confirma {
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #48C079;
+    color: black;
+    font-size: 13px;
+    width: 85px;
+    height: 50px;
+    
+}
+
+.divisao1 {
+    flex: 1;
+    display: flex;
+
+}
+
+.divisao1-esquerda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.divisao1-1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.divisao1-2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divisao1-3 {
+    height: 50px;
+}
+
+.numero {
+    display: inline-block;
+    border: 1px solid black;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.pisca{
+    animation-name: pisca;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.divisao1-4 {
+    line-height: 30px;
+    flex: 1;
+}
+
+
+.divisao1-direita {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.divisao1-imagem {
+    margin: 5px 5px 0 0;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.divisao1-imagem img {
+    width: 100%;
+}
+
+.divisao1-imagem.small {
+    width: 70%;
+    font-size: 12px;
+}
+
+.divisao2 {
+    height: 50px;
+    font-size: 13px;
+    border-top: 2px solid #555;
+    padding-left: 8px;
+}
+
+.aviso-grande {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 10% 0 0;
+    float: right;
+}
+
+.voto-branco {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.aviso-grande {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 5%;
+}
